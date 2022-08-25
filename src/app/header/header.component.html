@@ -1,0 +1,31 @@
+<header class="main-header">
+    <h1 class="main-header__title">
+        <span class="main-header__title--blue">Ipsum</span>
+        <span class="main-header__title--orange">Lorem</span>
+    </h1>
+    <div class="container-menu">
+
+        <nav class="main-header__menu">
+            <ul>
+                <li><a>Produtos</a></li>
+
+                <li>
+                    <a routerLink="/carrinho">Carrinho
+                        <i class=" fa-solid fa-cart-shopping"> </i>
+                        <span class="badge-carrinho">{{carrinho.obtemCarrinho().length}}</span>
+                    </a>
+                </li>
+
+                <li><a class="fa-brands fa-facebook-f"></a></li>
+
+                <li><a class="fa-brands fa-twitter"></a></li>
+                <li><a class="fa-brands fa-instagram"></a></li>
+                <li><a class="fa-brands fa-linkedin-in"></a></li>
+            </ul>
+        </nav>
+
+
+        <app-barra-pesquisa></app-barra-pesquisa>
+
+    </div>
+</header>

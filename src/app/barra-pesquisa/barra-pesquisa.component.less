@@ -1,0 +1,28 @@
+@cormain: red;
+@corsec: blue;
+
+.search-form {
+    height:44px;
+    display: flex; 
+
+    input{
+        box-sizing:border-box;
+        height: 56px;
+        padding: 20px;
+        flex: 1;
+        background-color: @cormain;
+        color: @corsec;
+        border: none;
+        transition: all .3s ease-in-out;
+        font-size: 22px;
+    }
+
+    button{
+        width: 56px;
+        height: 56px;
+        background-color: @corsec;
+        border: none;
+        color: @cormain;
+        font-size: 22px;
+    }
+}

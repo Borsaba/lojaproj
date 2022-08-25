@@ -1,0 +1,50 @@
+@cormain: rgb(0, 0, 230);
+@corsec: orange;
+
+.footer {
+    background-color: @cormain;        
+    color: @corsec;
+    font-size: 18px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    padding: 20px;
+}
+
+.footer__copyright {
+    text-align: center;
+    margin-top: 20px;
+    background-color: @corsec;    
+    font-weight: bold;
+    padding: 20px;
+    color: @cormain;
+}
+
+.footer__title {
+    font-size: 22px;
+    font-weight: bold;
+    color: @cormain;
+    margin-bottom: 5px;
+}
+
+.footer__about-text {
+    width: 400px;
+    text-align: justify;
+}
+
+
+.footer i {
+    color: @corsec;
+}
+
+.footer li {
+    margin: 10px 0;
+}
+
+address ul{
+    display: flex;
+    flex-direction: column;
+}
